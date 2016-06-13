@@ -1,6 +1,12 @@
+cassandra-cpp-driver (2.4.1-0tcp2) xenial; urgency=medium
+
+  * xenial build
+
+ -- Filip Pytloun <filip@pytloun.cz>  Mon, 13 Jun 2016 11:28:02 +0200
+
 cassandra-cpp-driver (2.4.1-0tcp1) trusty; urgency=medium
 
-  * Initial release for xenial
+  * Initial release for trusty
 
  -- Filip Pytloun <filip@pytloun.cz>  Mon, 13 Jun 2016 10:39:42 +0200
 

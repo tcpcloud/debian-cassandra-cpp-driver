@@ -1,3 +1,9 @@
+cassandra-cpp-driver (2.4.1-0tcp1) trusty; urgency=medium
+
+  * Initial release for trusty
+
+ -- Filip Pytloun <filip@pytloun.cz>  Mon, 13 Jun 2016 10:39:42 +0200
+
 cassandra-cpp-driver (1.0.0-1) stable; urgency=low
 
   * Initial release

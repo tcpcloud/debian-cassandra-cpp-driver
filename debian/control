@@ -1,6 +1,7 @@
 Source: cassandra-cpp-driver
 Priority: extra
-Maintainer: Michael Penick <michael.penick@datastax.com>
+Maintainer: tcpcloud Packaging Team <pkg-team@tcpcloud.eu>
+XSBC-Original-Maintainer: Michael Penick <michael.penick@datastax.com>
 Build-Depends: debhelper (>= 9.0.0), dh-exec, cmake, make,
         libuv-dev (>= 1.0.0),
         libssl-dev

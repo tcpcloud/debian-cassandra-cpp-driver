@@ -1,0 +1,25 @@
+From bccb72b59eb16c055cc3c83c19533f53ef88dea6 Mon Sep 17 00:00:00 2001
+From: Filip Pytloun <filip@pytloun.cz>
+Date: Fri, 7 Oct 2016 11:29:40 +0200
+Subject: [PATCH] Fix build on arm
+
+---
+ src/uuids.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/uuids.cpp b/src/uuids.cpp
+index e891dcb..9404392 100644
+--- a/src/uuids.cpp
++++ b/src/uuids.cpp
+@@ -121,7 +121,7 @@ CassError cass_uuid_from_string_n(const char* str,
+   const char* pos = str;
+   char buf[16];
+ 
+-  static const char hex_to_half_byte[256] = {
++  static const signed char hex_to_half_byte[256] = {
+     -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,
+     -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,
+     -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,
+-- 
+2.1.4
+

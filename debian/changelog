@@ -1,8 +1,8 @@
-cassandra-cpp-driver (2.4.1-0tcp2) xenial; urgency=medium
+cassandra-cpp-driver (2.4.1-0tcp2+jessie) jessie; urgency=medium
 
-  * xenial build
+  * jessie build
 
- -- Filip Pytloun <filip@pytloun.cz>  Mon, 13 Jun 2016 11:28:02 +0200
+ -- Filip Pytloun <filip@pytloun.cz>  Fri, 07 Oct 2016 10:17:16 +0200
 
 cassandra-cpp-driver (2.4.1-0tcp1) trusty; urgency=medium
 
